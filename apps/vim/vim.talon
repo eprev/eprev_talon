@@ -7,6 +7,15 @@ settings():
 ^over:
     key(escape)
 
+^pick$:
+  key(down)
+  key(enter)
+^pick <number_small>:
+  key(down)
+  repeat(number_small - 1)
+  key(enter)
+
+
 insert (mode | here)$:
     user.vim_set_mode("i")
 # insert <user.text>:
@@ -142,14 +151,13 @@ replace [in] (selected | visual | highlighted):
 (visual | highlight) all: insert("ggVG")
 reselect: insert("gv")
 
-
 force last [comand]:
     key(: up ! enter)
 
 magnet <user.unmodified_key>: insert("f{unmodified_key}")
 magnet back <user.unmodified_key>: insert("F{unmodified_key}")
 
-comment: insert("gcc")
+comment [that]: insert("gcc")
 
 open [current] (dear | directory): insert(":ed %%\n")
 config reload: insert(",vs")
