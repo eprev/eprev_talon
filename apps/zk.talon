@@ -19,4 +19,5 @@ zet new <user.text>:
     user.insert_formatted(text, "CAPITALIZE_ALL_WORDS")
     insert("\n")
 zet backlinks: "zk bl "
+zet update: "zk update\n"
 zet save: "zk save "
