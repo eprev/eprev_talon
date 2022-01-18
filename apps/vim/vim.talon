@@ -7,14 +7,13 @@ settings():
 ^over:
     key(escape)
 
-^pick$:
+^push$:
   key(down)
   key(enter)
-^pick <number_small>:
+^push <number_small>:
   key(down)
   repeat(number_small - 1)
   key(enter)
-
 
 insert (mode | here)$:
     user.vim_set_mode("i")

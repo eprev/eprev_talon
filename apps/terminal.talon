@@ -1,6 +1,6 @@
 tag: terminal
 -
-^abort: key(escape)
+^abort: key(ctrl-c)
 ^slap: key(enter)
 ^push:
   key(enter)
@@ -15,7 +15,6 @@ tag: terminal
   repeat(number_small - 2)
   key(enter)
 ^fuse: key(ctrl-t)
-^vim: "v "
 ^vim <user.text>:
   insert("v ")
   key(ctrl-t)
