@@ -15,6 +15,8 @@ zet list related: "zk list --related "
 zet edit last: "zk editlast\n"
 zet new$: "zk nt "
 zet new <user.text>:
-    insert("zk nt {text}\n")
+    insert("zk nt ")
+    user.insert_formatted(text, "CAPITALIZE_ALL_WORDS")
+    insert("\n")
 zet backlinks: "zk bl "
 zet save: "zk save "
