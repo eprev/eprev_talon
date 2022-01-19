@@ -11,6 +11,7 @@ zet list <user.text>:
     insert("{text}")
 zet recent: "zk recent\n"
 zet drafts: "zk drafts\n"
+zet copy: "zk copy\n"
 zet edit: "zk edit --interactive\n"
 zet list related: "zk list --related "
 zet edit last: "zk editlast\n"
