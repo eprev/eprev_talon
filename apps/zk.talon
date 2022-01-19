@@ -10,12 +10,15 @@ zet list <user.text>:
     sleep(50ms)
     insert("{text}")
 zet recent: "zk recent\n"
+zet drafts: "zk drafts\n"
 zet edit: "zk edit --interactive\n"
 zet list related: "zk list --related "
 zet edit last: "zk editlast\n"
-zet new$: "zk nt "
+zet new$: "zk quick "
+zet new draft:
+    insert("zk draft\n")
 zet new <user.text>:
-    insert("zk nt ")
+    insert("zk quick ")
     user.insert_formatted(text, "CAPITALIZE_ALL_WORDS")
     insert("\n")
 zet backlinks: "zk bl "
