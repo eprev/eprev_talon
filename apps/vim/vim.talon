@@ -4,13 +4,13 @@ app: vim
 settings():
     user.vim_debug = 1
 
-^over:
+over:
     key(escape)
 
-^push$:
+push$:
   key(down)
   key(enter)
-^push <number_small>:
+push <number_small>:
   key(down)
   repeat(number_small - 1)
   key(enter)
