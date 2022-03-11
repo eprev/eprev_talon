@@ -11,6 +11,7 @@ zet list <user.text>:
     insert("{text}")
 zet recent: "zk recent\n"
 zet drafts: "zk drafts\n"
+zet daily: "zk daily\n"
 zet monthly: "zk monthly\n"
 zet path: "zk path\n"
 zet copy: "zk copy\n"
