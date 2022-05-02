@@ -1,5 +1,5 @@
 os: mac
----
+-
 character (viewer | picker): key(cmd-ctrl-space)
 menu search$: key(cmd-shift-?)
 menu search <user.text>:
