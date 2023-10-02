@@ -1,5 +1,7 @@
 tag: terminal
 -
+make dear$: insert("mkdir ")
+
 abort: key(ctrl-c)
 slap: key(enter)
 push$:
