@@ -161,7 +161,7 @@ comment [that]: insert("gcc")
 open [current] (dear | directory): insert(":ed %%\n")
 config reload: insert(",vs")
 
-find <user.text>:
+search <user.text>:
     user.vim_set_mode_np("n")
     key(/)
     insert("{text}")
