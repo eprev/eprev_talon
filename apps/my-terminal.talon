@@ -3,7 +3,7 @@ tag: terminal
 make dear$: insert("mkdir ")
 
 abort: key(ctrl-c)
-slap: key(enter)
+enter: key(enter)
 push$:
   key(enter)
   key(enter)
