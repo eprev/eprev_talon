@@ -11,3 +11,8 @@ focus status menu: key(ctrl-f8)
 brightness down: key(ctrl-cmd-f1)
 brightness up: key(ctrl-cmd-f2)
 lock screen: key(ctrl-cmd-q)
+glen <user.text>:
+    key(ctrl-cmd-shift-alt-g)
+    sleep(100ms)
+    insert("{text}")
+glen$: key(ctrl-cmd-shift-alt-g)
