@@ -1,0 +1,100 @@
+list: user.vocabulary
+-
+VPN
+DNS
+frontend
+backend
+monorepo
+DX
+API
+APIs
+endpoint
+endpoints
+JS
+TS
+Nx
+node gs: Node.js
+pnpm
+nmp
+engine ex: Nginx
+Talon
+vim
+AWS
+Capla
+ABU
+TBU
+MFE
+MFEs
+micro frontend: MFE
+micro frontends: MFEs
+CCJ
+ET
+FE
+SPA
+MPA
+age one: H1
+age two: H2
+cu one: Q1
+cu two: Q2
+cu three: Q3
+cu four: Q4
+DEV
+DQS
+PROD
+OKRs
+RFC
+RFCs
+ADR
+ADRs
+PAX
+FETA
+engineering manager: EM
+engineering managers: EMs
+EM
+EMs
+SEM
+SEMs
+SSE
+SSEs
+protobuf
+SLI
+SLIs
+SLO
+SLOs
+CSR
+SSR
+CORS
+RFO
+RFOs
+event loop
+event loop lag
+loop lag
+Razzel 
+webpack
+tsc
+dot dts: d.ts
+dot gs: .js
+dot ts: .ts
+dot jason: .json
+JSON
+cache
+eslint
+package jason: package.json
+ts config: tsconfig.json
+ESM
+es module: ESM
+CJS
+common gs: CJS
+MDN
+entry point
+bag fix: bugfix
+Safari
+Firefox
+Chrome
+KTLO
+BUA
+express gs: express.js
+middleware
+HTTP
+HTTPS
+TLS
