@@ -22,3 +22,8 @@ pick <number_small>$:
   key(ctrl-t)
   sleep(50ms)
   insert("{text}")
+
+annex$: insert("nx ")
+annex <user.text>:
+  insert("nx ")
+  insert("{text}")

@@ -28,7 +28,7 @@ MFEs
 micro frontend: MFE
 micro frontends: MFEs
 CCJ
-ET
+experimental tool: ET
 FE
 SPA
 MPA
@@ -38,6 +38,9 @@ cu one: Q1
 cu two: Q2
 cu three: Q3
 cu four: Q4
+merge request: MR
+merge requests: MRs
+Cody
 DEV
 DQS
 PROD
