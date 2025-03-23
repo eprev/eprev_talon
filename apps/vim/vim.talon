@@ -197,12 +197,18 @@ quick last:
     user.vim_set_mode("n")
     insert("[c")
 
+diff off:
+    user.vim_set_mode("n")
+    insert(":diffoff\n")
+diff (on|this):
+    user.vim_set_mode("n")
+    insert(":diffthis\n")
 (diff) get (ours|local):
     user.vim_set_mode("n")
-    insert("::diffget LOCAL\n")
+    insert(":diffget LOCAL\n")
 (diff) get (parent|basr):
     user.vim_set_mode("n")
-    insert("::diffget BASE\n")
+    insert(":diffget BASE\n")
 (diff) get (theirs|remote):
     user.vim_set_mode("n")
-    insert("::diffget REMOTE\n")
+    insert(":diffget REMOTE\n")
