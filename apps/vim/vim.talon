@@ -116,7 +116,6 @@ matching <user.symbol_key>: insert("f{symbol_key}%")
     user.vim_set_mode_np("n")
     insert(":{number}\n")
 
-
 show jump list: insert(":jumps\n")
 clear jump list: insert(":clearjumps\n")
 go (last|prev|previous) jump [entry]: key(ctrl-o)
@@ -168,3 +167,22 @@ search <user.text>:
     key(enter)
 next:
     key(n)
+
+quick open:
+    user.vim_set_mode("n")
+    insert(":copen\n")
+quick close:
+    user.vim_set_mode("n")
+    insert(":cclose\n")
+quick (next | neck):
+    user.vim_set_mode("n")
+    insert(":cn\n")
+quick (previous | prev):
+    user.vim_set_mode("n")
+    insert(":cp\n")
+quick first:
+    user.vim_set_mode("n")
+    insert(":cr\n")
+quick last:
+    user.vim_set_mode("n")
+    insert(":cla\n")
