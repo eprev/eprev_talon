@@ -197,6 +197,10 @@ quick last:
     user.vim_set_mode("n")
     insert("[c")
 
+tags (show|hide):
+    user.vim_set_mode("n")
+    insert(":TagbarToggle\n")
+
 diff off:
     user.vim_set_mode("n")
     insert(":diffoff\n")
