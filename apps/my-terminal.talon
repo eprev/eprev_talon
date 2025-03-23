@@ -27,3 +27,8 @@ annex$: insert("nx ")
 annex <user.text>:
   insert("nx ")
   insert("{text}")
+
+pane up: key(ctrl-j)
+pane down: key(ctrl-k)
+pane left: key(ctrl-h)
+pane right: key(ctrl-l)
