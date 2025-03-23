@@ -190,9 +190,19 @@ quick last:
     user.vim_set_mode("n")
     insert(":cla\n")
 
-confict (next | neck):
+(confict | difference) (next | neck):
     user.vim_set_mode("n")
     insert("]c")
-confict (previous | prev):
+(confict | difference) (previous | prev):
     user.vim_set_mode("n")
     insert("[c")
+
+(diff) get (ours|local):
+    user.vim_set_mode("n")
+    insert("::diffget LOCAL\n")
+(diff) get (parent|basr):
+    user.vim_set_mode("n")
+    insert("::diffget BASE\n")
+(diff) get (theirs|remote):
+    user.vim_set_mode("n")
+    insert("::diffget REMOTE\n")
