@@ -84,7 +84,7 @@ file save as:
 file save all:
     user.vim_set_mode_np("n")
     insert(":wa\n")
-(file save and (quit|close)|squeak):
+file save and (quit|close):
     user.vim_set_mode_np("n")
     insert(":wq\n")
 file (close|quite):
@@ -101,6 +101,9 @@ force [file] (close|quit):
 force (close|quit) all:
     user.vim_set_mode_np("n")
     insert(":qa!\n")
+(close|quit|exit) [with] error:
+    user.vim_set_mode_np("n")
+    insert(":cq\n")
 
 file refresh:
     user.vim_set_mode_np("n")
@@ -186,3 +189,10 @@ quick first:
 quick last:
     user.vim_set_mode("n")
     insert(":cla\n")
+
+confict (next | neck):
+    user.vim_set_mode("n")
+    insert("]c")
+confict (previous | prev):
+    user.vim_set_mode("n")
+    insert("[c")
