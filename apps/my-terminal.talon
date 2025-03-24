@@ -23,6 +23,15 @@ pick <number_small>$:
   sleep(50ms)
   insert("{text}")
 
+^katy (jump|fuse)$:
+   key(escape)
+   key(c)
+^katy (jump|fuse) <user.text>:
+   key(escape)
+   key(c)
+  sleep(50ms)
+  insert("{text}")
+
 pnpm$: insert("pnpm ")
 pnpm <user.text>:
   insert("pnpm ")
