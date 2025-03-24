@@ -23,6 +23,11 @@ pick <number_small>$:
   sleep(50ms)
   insert("{text}")
 
+pnpm$: insert("pnpm ")
+pnpm <user.text>:
+  insert("pnpm ")
+  insert("{text}")
+
 annex$: insert("nx ")
 annex <user.text>:
   insert("nx ")
