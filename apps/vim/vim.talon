@@ -190,12 +190,26 @@ quick last:
     user.vim_set_mode("n")
     insert(":cla\n")
 
-(confict | difference) (next | neck):
+(confict | difference | hunk) (next | neck):
     user.vim_set_mode("n")
     insert("]c")
-(confict | difference) (previous | prev):
+(confict | difference | hunk) (previous | prev):
     user.vim_set_mode("n")
     insert("[c")
+
+hunk preview [show|on]:
+    user.vim_set_mode("n")
+    insert(",hp")
+[hunk] preview (hide|off):
+    user.vim_set_mode("n")
+    key(ctrl-j)
+    insert(":q\n")
+hunk stage:
+    user.vim_set_mode("n")
+    insert(",hs")
+hunk undo:
+    user.vim_set_mode("n")
+    insert(",hu")
 
 tags (show|hide):
     user.vim_set_mode("n")

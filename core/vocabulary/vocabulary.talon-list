@@ -10,6 +10,7 @@ API
 APIs
 endpoint
 endpoints
+tee max: tmux
 JS
 TS
 Nx
