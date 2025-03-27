@@ -19,6 +19,8 @@ mux config save:
 mux config load:
     key(ctrl-s)
     key(R)
+mux detach:
+    insert('tmux detach\n')
 #window management
 mux new window:
     key(ctrl-s)
@@ -54,6 +56,9 @@ mux move <user.arrow_key>:
 mux close pane:
     key(ctrl-s)
     key(x)
+mux (max | fold):
+    key(ctrl-s)
+    key(z)
 #Say a number right after this command, to switch to pane
 mux pane numbers:
     key(ctrl-s)

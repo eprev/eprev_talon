@@ -230,3 +230,18 @@ diff (on|this):
 (diff) get (theirs|remote):
     user.vim_set_mode("n")
     insert(":diffget REMOTE\n")
+
+vee max command:
+    user.vim_set_mode("n")
+    insert(":VimuxRunCommand ''")
+    key(left)
+vee max last [command]:
+    user.vim_set_mode("n")
+    insert(":VimuxRunLastCommand\n")
+
+test this:
+    user.vim_set_mode("n")
+    insert(":TestNearest\n")
+test file:
+    user.vim_set_mode("n")
+    insert(":TestFile\n")
