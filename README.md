@@ -10,8 +10,8 @@ git clone https://github.com/eprev/eprev_talon.git 1-eprev_talon
 
 ```
 cat ~/.talon/user/engines.py
+from talon.engines.macsf import MacSFEngine
 from talon import speech_system
-from talon.engines.webspeech import WebSpeechEngine
-webspeech = WebSpeechEngine()
-speech_system.add_engine(webspeech)
+engine = MacSFEngine()
+speech_system.add_engine(engine)
 ```
